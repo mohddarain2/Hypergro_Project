@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.copyRightSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.footer-bottom--section{
+    background: #0a1435;
+    color: white;
+    height: 20vh;
+}
+/* -----------Main Section Css--------------- */
+.main_container{
+    padding-top: 70px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Video_container{
+   padding: 30px;
+   margin: auto;
+    
+}
+.Loader{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.Details{
+    width: 300px;
+}
+.likeAndDis{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.LikeFillColor{
+    color:  blue;
+    
+}
+@media only screen and (max-width: 600px) {
+    .copyRightSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    
+  }
